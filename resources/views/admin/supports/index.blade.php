@@ -1,4 +1,4 @@
-<h1>Listagem dos suportes</h1>
+<h1>Listagem dos Suportes</h1>
 
 <a href="{{ route('supports.create') }}">Criar Dúvida</a>
 
@@ -12,13 +12,13 @@
 </table>
 <tbody>
     @foreach ($supports as $support)
-       <tr>
-        <td>{{ $support->subject }}</td>
-        <td>{{ $support->status }}</td>
-        <td>{{ $support->body }}</td>
-        <td>
-            >
-        </td>
+        <tr>
+            <td>{{ $support->subject }}</td>
+            <td>{{ $support->status }}</td>
+            <td>{{ $support->body }}</td>
+            <td>
+                >
+            </td>
         </tr>
     @endforeach
 </tbody>
